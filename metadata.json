@@ -1,0 +1,6 @@
+{
+  "name": "Alpha AI",
+  "description": "Next-generation intelligent personal AI assistant. Think Smarter. Create Faster. Learn Better.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
