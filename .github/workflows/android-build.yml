@@ -31,9 +31,10 @@ jobs:
       - name: Build web assets
         run: npm run build
 
-      - name: Ensure Android platform exists
+      - name: Re-generate clean Android folder
         run: |
-          npx cap add android || true
+          rm -rf android
+          npx cap add android
           npx cap sync android
 
       - name: Build APK with Gradle
