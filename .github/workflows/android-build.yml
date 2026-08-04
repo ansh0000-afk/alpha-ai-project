@@ -31,7 +31,7 @@ jobs:
       - name: Build web assets
         run: npm run build
 
-      - name: Re-generate clean Android folder
+      - name: Re-create Clean Android Project
         run: |
           rm -rf android
           npx cap add android
