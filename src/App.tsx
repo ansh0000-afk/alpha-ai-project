@@ -174,4 +174,3 @@ const styles: { [key: string]: React.CSSProperties } = {
   input: { flex: 1, padding: '12px 16px', borderRadius: '10px', border: '1px solid #334155', backgroundColor: '#090d16', color: '#f8fafc', fontSize: '14px', outline: 'none' },
   sendBtn: { backgroundColor: '#38bdf8', color: '#090d16', fontWeight: 'bold', border: 'none', padding: '0 22px', borderRadius: '10px', cursor: 'pointer', fontSize: '14px' }
 };
-            
